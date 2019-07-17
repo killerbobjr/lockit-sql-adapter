@@ -177,9 +177,10 @@ Adapter.prototype.save = function(name, email, pw, done) {
  * @param {String} match - The key to look for. Can be `'name'`, `'email'` or `'signupToken'`
  * @param {String} query - The corresponding value for `match`
  * @param {Function} done - Callback function having `err` and `user` as arguments
+ * @param {Object} basequery - query base object -- used to create a more extensive starting query
  */
-Adapter.prototype.find = function(match, query, done) {
-  var qry = {};
+Adapter.prototype.find = function(match, query, done, basequery) {
+  var qry = basequery || {};
   qry[match] = query;
   this.User.find({ where: qry })
     .then(function(user) {
