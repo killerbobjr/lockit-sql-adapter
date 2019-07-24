@@ -29,16 +29,16 @@
     "couch-pwd": "git://github.com/zemirco/couch-pwd.git",
     "moment": "^2.18.1",
     "ms": "^1.0.0",
-    "sequelize": "^3.30.4",
+    "sequelize": "^5.10.2",
     "uuid": "^3.0.1"
   },
   "devDependencies": {
-    "eslint": "^3.18.0",
-    "mocha": "^3.2.0",
+    "eslint": "^6.1.0",
+    "mocha": "^6.2.0",
     "mysql": "^2.13.0",
     "pg": "^6.1.5",
     "pg-hstore": "^2.3.2",
     "should": "^11.2.1",
-    "sqlite3": "^3.1.8"
+    "sqlite3": "^4.0.9"
   }
 }
