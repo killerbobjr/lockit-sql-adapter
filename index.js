@@ -1,4 +1,4 @@
-'use strict';
+'use strict()';
 
 var uuid = require('uuid');
 var pwd = require('couch-pwd');
