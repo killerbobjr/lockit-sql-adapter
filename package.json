@@ -26,7 +26,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "couch-pwd": "git://github.com/zemirco/couch-pwd.git",
+    "couch-pwd": "https://github.com/zemirco/couch-pwd.git",
     "moment": "^2.24.0",
     "ms": "^2.1.2",
     "sequelize": "^5.10.2",
