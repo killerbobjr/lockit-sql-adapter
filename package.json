@@ -29,7 +29,7 @@
     "couch-pwd": "https://github.com/zemirco/couch-pwd.git",
     "moment": "^2.24.0",
     "ms": "^2.1.2",
-    "sequelize": "^5.10.2",
+    "sequelize": "^6.37.3",
     "uuid": "^3.3.2"
   },
   "devDependencies": {
@@ -39,6 +39,6 @@
     "pg": "^7.11.0",
     "pg-hstore": "^2.3.3",
     "should": "^13.2.3",
-    "sqlite3": "^4.0.9"
+    "sqlite3": "^5.1.7"
   }
 }
